@@ -13,11 +13,10 @@
             </intent-filter>
         </activity>
 
-
         <activity-alias
-                android:label="Setting1"
-                android:icon="@mipmap/icon_blue"
-                android:name=".BLUE"
+                android:label="Red app"
+                android:icon="@mipmap/icon_red"
+                android:name=".RED"
                 android:enabled="true"
                 android:targetActivity=".MainActivity">
             <intent-filter>
@@ -27,9 +26,9 @@
         </activity-alias>
 
         <activity-alias
-                android:label="Setting2"
-                android:icon="@mipmap/icon_red"
-                android:name=".RED"
+                android:label="Green app"
+                android:icon="@mipmap/icon_green"
+                android:name=".GREEN"
                 android:enabled="false"
                 android:targetActivity=".MainActivity">
             <intent-filter>
@@ -39,9 +38,9 @@
         </activity-alias>
 
         <activity-alias
-                android:label="Setting3"
-                android:icon="@mipmap/icon_green"
-                android:name=".GREEN"
+                android:label="Blue app"
+                android:icon="@mipmap/icon_blue"
+                android:name=".BLUE"
                 android:enabled="false"
                 android:targetActivity=".MainActivity">
             <intent-filter>
